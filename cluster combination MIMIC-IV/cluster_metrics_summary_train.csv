@@ -1,0 +1,5 @@
+cluster_id,num_samples,accuracy,precision,recall,f1,true_rate,pred_rate,accuracy_vs_overall,precision_vs_overall,recall_vs_overall,f1_vs_overall
+-1,55,1.0,1.0,1.0,1.0,0.36363636363636365,0.36363636363636365,equal,above average,above average,above average
+0,631,1.0,0.0,0.0,0.0,0.0,0.0,equal,equal,equal,equal
+1,64,1.0,0.0,0.0,0.0,0.0,0.0,equal,equal,equal,equal
+2,2690,1.0,0.0,0.0,0.0,0.0,0.0,equal,equal,equal,equal
