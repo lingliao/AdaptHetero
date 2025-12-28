@@ -13,6 +13,8 @@ Below conatins the overview of the framwwork:
   <img width="343" height="195" alt="image" src="https://github.com/user-attachments/assets/7aff2378-e781-4828-94d7-924635073cab" />
 </div>
 
+Input data are split into training and testing sets. After initial model training, patient subgroups are derived from the training data by integrating SHAP-based interpretation with unsupervised clustering. These cluster assignments are then propagated to the testing data, enabling subgroup-specific performance evaluation.  For all non-empty combinations of cluster-defined subgroups containing both positive and negative cases, separate models are retrained using the corresponding training data and evaluated on the matching test data. Following retraining, subgroup-specific SHAP values are computed on the testing data and compared with initial SHAP interpretations to assess clustering quality and evaluate cluster-wise predictive performance between the original and retrained models. This procedure thereby forms a closed-loop evaluation framework that links subgroup discovery, model refinement, and interpretability analysis. Final predictive performance is assessed on the testing data using AUPRC (Area Under the Precision–Recall Curve), while SHAP representations are analyzed to validate model behavior and heterogeneity across subpopulations.
+
 
 ## Dataset Availability
 The data utilized in this study is downloaded from [here]( https://physionet.org/).
