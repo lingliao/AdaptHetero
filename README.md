@@ -19,7 +19,7 @@ Step 1: Cluster identification and evaluation. The full dataset is randomly divi
 
 ## Methods
 
-WiDS_19.ipynb contains a clean, end-to-end example script showing how to run the full SHAP + HDBSCAN + UMAP pipeline on the WiDS-19 (hospital mortality) dataset, written in a reproducible style.
+WiDS_19.ipynb contains a clean, end-to-end example script showing how to run the full pipeline on the WiDS-19 (hospital mortality) dataset, written in a reproducible style.
 
 More to come soon...
 
