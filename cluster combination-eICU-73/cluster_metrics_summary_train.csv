@@ -1,7 +1,0 @@
-cluster_id,num_samples,accuracy,precision,recall,f1,true_rate,pred_rate,accuracy_vs_overall,precision_vs_overall,recall_vs_overall,f1_vs_overall
--1,59,1.0,1.0,1.0,1.0,0.03389830508474576,0.03389830508474576,equal,equal,equal,equal
-0,59,1.0,1.0,1.0,1.0,0.7288135593220338,0.7288135593220338,equal,equal,equal,equal
-1,44,1.0,0.0,0.0,0.0,0.0,0.0,equal,below average,below average,below average
-2,1034,1.0,0.0,0.0,0.0,0.0,0.0,equal,below average,below average,below average
-3,153,1.0,0.0,0.0,0.0,0.0,0.0,equal,below average,below average,below average
-4,1684,1.0,0.0,0.0,0.0,0.0,0.0,equal,below average,below average,below average
